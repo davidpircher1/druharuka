@@ -1,0 +1,30 @@
+
+footer {
+	background: var(--blue);
+	color: var(--white);
+   width: 100%;
+}
+
+footer a {
+	color: var(--white);
+	font-size: 18px;
+}
+
+footer a:hover {
+	color: var(--white);
+	text-decoration: underline;
+}
+
+footer h3 {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+footer h4 {
+	font-size: 18px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 18px;
+}

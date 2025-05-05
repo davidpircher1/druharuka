@@ -1,0 +1,60 @@
+.pages {
+	font-size: 20px;
+	font-style: italic;
+	padding: 10px 10px;
+	border-left: 5px solid var(--blue);
+	margin: 3rem 0 3rem 0;
+}
+
+
+.pages a {
+	color: var(--blue);
+	text-decoration: none;
+}
+
+.pages a:hover {
+	text-decoration: underline;
+	color: var(--blue);
+}
+
+.pages p {
+	display: inline-block;
+	margin: 0;
+}
+
+.pages .back:after {
+	content: " / "
+}
+
+.pages i {
+	color: 	var(--blue);
+}
+
+.description {
+	text-align: justify;
+}
+
+.information a {
+	color: var(--black);
+}
+
+.information a:hover {
+	color: var(--black);
+}
+
+.carousel-item img {
+	height: 400px;
+}
+
+
+.information .btn {
+	background: var(--blue);
+	border-color: var(--white);
+	color: var(--white);
+}
+
+.information .btn:hover {
+	background: none;
+	color: var(--blue);
+	border-color: var(--blue);
+}

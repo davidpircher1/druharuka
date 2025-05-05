@@ -1,0 +1,22 @@
+:root {
+  --blue: #008080;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	min-height: calc(100vh - 240px);
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}

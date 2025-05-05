@@ -1,0 +1,19 @@
+main form .btn {
+	background: var(--blue);
+	color: white;
+	border-color: none;
+}
+
+main form .btn:hover {
+	background: none;
+	color: var(--blue);
+	border-color: var(--blue);
+}
+
+#add {
+	color: var(--blue);
+}
+
+#add:hover {
+	text-decoration: underline;
+}

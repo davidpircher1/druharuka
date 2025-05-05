@@ -1,0 +1,12 @@
+
+.category {
+	margin: 0;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+	.category img {
+		width: 90px;
+		height: 90px;
+	}
+}

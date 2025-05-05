@@ -1,0 +1,38 @@
+.nav-link {
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--black);
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	color: var(--blue);
+}
+
+.searchingForm {
+	background: var(--blue);
+	border-radius: 5px;
+	padding: 1rem 1rem;
+}
+
+.searchingForm .btn {
+	background: none;
+	border-color: var(--white);
+}
+
+.searchingForm .btn:hover {
+	background: var(--white);
+	color: var(--blue);
+	border-color: var(--white);
+}
+
+.form-select option {
+	color: var(--black);
+}
+
+@media only screen and (max-width: 500px) {
+	.navbar-brand img {
+		height: 40px;
+		width: auto;
+	}
+}
